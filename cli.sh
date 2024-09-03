@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OPENSHIFT_URL="<YOUR_OPENSHIFT_CLUSTER_URL_HERE>" # e.g. https://api.ocp-prod-0.k8s.it.helsinki.fi:6443
+OPENSHIFT_URL="https://api.ocp-prod-0.k8s.it.helsinki.fi:6443" # e.g. https://api.ocp-prod-0.k8s.it.helsinki.fi:6443
 
 API_TOKEN=$(cat production-token)
 
